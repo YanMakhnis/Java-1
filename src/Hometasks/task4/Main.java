@@ -16,7 +16,7 @@ public class Main {
         rectangle1.printRectangleKind();
         System.out.println();
 
-        boolean g = rectangle.isTheSameRectangle(square);
+        boolean g = rectangle1.isTheSameRectangle(rectangle);
         System.out.println("Равенство прямоугольников - " + g);
     }
 }
